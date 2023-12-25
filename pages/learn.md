@@ -11,7 +11,7 @@ permalink: /learn/
 
 > 记多少命令和快捷键会让脑袋爆炸呢？
 
-{% case site.components.learn.view %}
+{% case site.components.wiki.view %}
 
 {% when 'list' %}
 
