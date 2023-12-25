@@ -1,8 +1,8 @@
 ---
 layout: learn
 title: 并发原理学习
-cate1: Java
-cate2: Concurrency
+cate1: Concurrency
+cate2: 
 description: 并发相关的理论知识储备
 keywords: Concurrency
 ---

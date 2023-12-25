@@ -2,10 +2,10 @@
 layout: learn
 title: learn
 description: 人越学越觉得自己无知
-keywords: 学些, learn
+keywords: 学习, learn
 comments: false
 copyright: false
-menu: 维基
+menu: 学习
 permalink: /learn/
 ---
 
