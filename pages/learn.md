@@ -17,12 +17,12 @@ permalink: /learn/
 
 <ul class="listing">
 {% for learn in site.learn %}
-{% if learn.title != "learn Template" and learn.topmost == true %}
+{% if learn.title != "Learn Template" and learn.topmost == true %}
 <li class="listing-item"><a href="{{ site.url }}{{ learn.url }}"><span class="top-most-flag">[置顶]</span>{{ learn.title }}</a></li>
 {% endif %}
 {% endfor %}
 {% for learn in site.learn %}
-{% if learn.title != "learn Template" and learn.topmost != true %}
+{% if learn.title != "Learn Template" and learn.topmost != true %}
 <li class="listing-item"><a href="{{ site.url }}{{ learn.url }}">{{ learn.title }}<span style="font-size:12px;color:red;font-style:italic;">{%if learn.layout == 'mindmap' %}  mindmap{% endif %}</span></a></li>
 {% endif %}
 {% endfor %}
@@ -30,7 +30,7 @@ permalink: /learn/
 
 {% when 'cate' %}
 
-{% assign item_grouped = site.learn | where_exp: 'item', 'item.title != "learn Template"' | group_by: 'cate1' | sort: 'name' %}
+{% assign item_grouped = site.learn | where_exp: 'item', 'item.title != "Learn Template"' | group_by: 'cate1' | sort: 'name' %}
 {% for group in item_grouped %}
 ### {{ group.name }}
 {% assign cate_items = group.items | sort: 'title' %}
