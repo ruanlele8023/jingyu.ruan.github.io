@@ -4,12 +4,6 @@ title: 并发相关理论知识
 categories: [Concurrency]
 description: 并发需要理解的相关知识点
 keywords: Java, Concurrency
-mermaid: false
-sequence: false
-flow: false
-mathjax: false
-mindmap: false
-mindmap2: false
 ---
 
 
